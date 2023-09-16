@@ -208,6 +208,12 @@ th,tr,td
     flex-flow: column;
 }
 
+#opleidingsoverzicht
+{
+    width: 80vw;
+    height: 60vw;
+}
+
 #click-img
 {
     display: none;
@@ -218,7 +224,7 @@ th,tr,td
     display: none;
 }
 
-
+/* Section 5 ---------------------------*/
 
 #footer
 {
