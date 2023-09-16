@@ -214,6 +214,15 @@ th,tr,td
     height: 60vw;
 }
 
+#blokuitleg
+{
+    text-align: center;
+    color: black;
+    text-shadow: white 0px 0px 5px;
+    background-color: rgb(255, 255, 255,0.7);
+    margin-bottom: 2vh;
+}
+
 #click-img
 {
     display: none;
@@ -231,6 +240,33 @@ th,tr,td
     background-color: rgb(255, 115, 0);
     height: 100vh;
 }
+
+#docentenlijst
+    {
+        margin-left: 15vw;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        width: 80vw;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    #docenten
+    {
+       margin-left: 1vw;
+    }
+
+    #big
+    {
+        width: 80%;
+    }
+
+    #small
+    {
+        width: 200%;
+    }
+    
+    
 
 /* Section 6 ---------------------------*/
 
@@ -409,15 +445,6 @@ th,tr,td
         display: block;
         background-color: rgb(255, 255, 255);
         margin-top: 10vh;
-    }
-
-    #blokuitleg
-    {
-        text-align: center;
-        color: black;
-        text-shadow: white 0px 0px 5px;
-        background-color: rgb(255, 255, 255,0.7);
-        margin-bottom: 2vh;
     }
 
     #next4
