@@ -156,6 +156,48 @@ th,tr,td
     display: none;
 }
 
+/* Section3 ---------------------------*/
+
+#section3
+{
+    background-image: url('../Doc/img/Beeldbank_Curio_Mbo/Mbo/Mbo\ -\ techniek\ en\ technologie/GettyImages-1212006391.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+    #click-img
+{
+    display: none;
+}
+
+#rooster
+{
+    margin-top: 4vh;
+    width: 60vw;
+    margin-bottom: 3vh;
+    opacity: 0.8;
+}
+
+#rooster-beschrijving
+{
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 10%;
+}
+    
+#next3
+{
+    display: none;
+}
+
+/* Section 4 ---------------------------*/
+
 
 
 
@@ -262,5 +304,39 @@ th,tr,td
         color: yellow;
     }
 
+    /* Section3 -----------------------*/
 
+    #click-img
+    {
+        text-align: center;
+        display: block;
+        background-color: rgb(255, 255, 255);
+        margin-top: 10vh;
+    }
+
+    #rooster
+    {
+        margin-top: 0;
+        width: 90vw;
+        opacity: 1;
+    }
+
+    #rooster-beschrijving
+    {
+        text-align: center;
+        width: 80vw;
+        background-color: aliceblue;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        border-radius: 10%;
+    }
+
+    #next3
+    {
+        display: inline-flex;
+        color: yellow;
+        display: block;
+    }
+
+    /* Section4 -----------------------*/
 }
