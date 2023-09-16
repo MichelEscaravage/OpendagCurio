@@ -226,6 +226,20 @@ th,tr,td
 
 /* Section 5 ---------------------------*/
 
+#section5
+{
+    background-color: rgb(255, 115, 0);
+    height: 100vh;
+}
+
+/* Section 6 ---------------------------*/
+
+#section6
+{
+    background-color: rgb(0, 255, 132);
+    height: 100vh;
+}
+
 #footer
 {
     height: 10vh;
@@ -291,6 +305,13 @@ th,tr,td
 
     /* Section2 -------------------*/
 
+    #section2
+    {
+        display: flex;
+        flex-flow: column;
+        width: 100vw;
+    }
+
     #grid-classes
     {
         
@@ -329,6 +350,15 @@ th,tr,td
     }
 
     /* Section3 -----------------------*/
+
+    #section3
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column;
+       
+    }
 
     #click-img
     {
