@@ -198,7 +198,25 @@ th,tr,td
 
 /* Section 4 ---------------------------*/
 
+#section4
+{
+    background-color: rgb(255, 0, 132);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
 
+#click-img
+{
+    display: none;
+}
+
+#next4
+{
+    display: none;
+}
 
 
 
@@ -339,4 +357,39 @@ th,tr,td
     }
 
     /* Section4 -----------------------*/
+
+    #section4
+    {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        background-image: url('../Doc/img/Beeldbank_Curio_Mbo/Mbo/foto\ scholieren.jpg');
+        background-size: cover;
+    }
+
+    #click-img
+    {
+        text-align: center;
+        display: block;
+        background-color: rgb(255, 255, 255);
+        margin-top: 10vh;
+    }
+
+    #blokuitleg
+    {
+        text-align: center;
+        color: black;
+        text-shadow: white 0px 0px 5px;
+        background-color: rgb(255, 255, 255,0.7);
+        margin-bottom: 2vh;
+    }
+
+    #next4
+    {
+        display: inline-flex;
+        color: yellow;
+        display: block;
+    }
+
+
 }
