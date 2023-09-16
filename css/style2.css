@@ -49,6 +49,8 @@ a:visited, a:hover
     
 }
 
+/* Section1 -------------------------------*/
+
 #section1
 {
     display: flex;
@@ -100,6 +102,63 @@ a:visited, a:hover
     display: none;
 }
 
+/*section 2 --------------------------------*/
+
+
+#section2
+{
+    background-image: url('../Doc/img/Beeldbank_Curio_Mbo/MBO/GettyImages-1127305026.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#grid-classes
+{
+    display: none;
+}
+
+
+table
+{
+    background-color: rgb(240, 248, 255,0.7);
+    
+}
+
+#table-classes
+{
+    height: 90vh;
+    width: 80vw;
+    text-align: center;
+    width: 70vw;
+    
+}
+
+#table-classes p
+{
+    font-size: 80%;
+}
+
+th,tr,td
+{
+    border: 1px solid black;
+    border-radius: 10%;
+    
+}
+
+#next2
+{
+    display: none;
+}
+
+
+
+
 
 #footer
 {
@@ -145,6 +204,8 @@ a:visited, a:hover
         
     }
 
+/* Section1 -------------------------------*/
+
     #section1
     {
         display: flex;
@@ -157,12 +218,49 @@ a:visited, a:hover
         
     }
 
-
     #next1
     {
         display: inline-flex; 
     }
 
+    /* Section2 -------------------*/
+
+    #grid-classes
+    {
+        
+        display: grid;
+        grid-template-columns: 4, 1fr;
+        grid-gap: 1vh;
+        text-align: center;
+        overflow:scroll;
+    }
+
+    #grid-classes h1
+    {
+        color: white;
+        text-shadow: black 0px 0px 5px;
+    }
+
+    #classes
+    {
+        background-color: rgba(215, 215, 250, 0.9);
+        font-weight: bold;
+        border-radius: 10%;
+        width: 100vw;
+    }
+
+    #table-classes
+    {
+        display: none;
+        margin-top: 21vh;
+        width: 10%;
+    }
+
+    #next2
+    {
+        display: inline-flex;
+        color: yellow;
+    }
 
 
 }
