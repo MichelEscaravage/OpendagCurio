@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    width: 100vw;
+}
+
+html
+{
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+nav
+{
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    align-items: center;
+    height: 100vh;
+    width: 10vw;
+    background-color:rgb(171, 42, 42);
+}
+
+nav a
+{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    color: rgb(207, 200, 14);
+    text-decoration: none;
+    padding-top: 2vh;
+}
+
+a:visited, a:hover
+{
+    text-decoration: none;
+    color: rgb(207, 200, 14);
+    
+}
+
+#sections
+{
+    margin-left: 10vw;
+    
+}
+
+#section1
+{
+    display: flex;
+    justify-content: center;
+    background-color:RGB(1,76,53);
+    height: 100vh;
+    padding-top: 2vh;
+    text-align: center;
+    color: whitesmoke;
+    overflow: hidden ;
+    
+}
+
+#imgLogo
+{
+    width: 20vw;
+    padding-bottom: 5vh;
+    
+}
+
+#imgLocation
+{
+    width: 50vw;
+    padding-bottom: 10vh;
+    border-radius: 15px;
+}
+
+#introtext
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:RGB(252,50,50,0.6);
+    margin-left:10vw;
+    margin-right:10vw;
+    font-size: 2vh;
+    text-align: center;
+    color:rgb(240, 180, 30);
+}
+
+#section1 h2
+{
+    
+    padding-bottom: 4vh;
+} 
+
+#next1
+{
+    display: none;
+}
+
+
+#footer
+{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(152, 31, 180);
+    position: fixed;
+    
+}
+
+
+@media (max-width: 768px) {
+
+    
+
+    body
+    {
+        max-width: 100vw;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+
+    #intro
+    {
+        margin-top: -20vh;
+    }
+
+    #imgLogo
+    {
+        padding-bottom: 4vh;
+        width: 40vw;
+    }
+
+    #sections
+    {
+        width: 100vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        
+    }
+
+    #section1
+    {
+        display: flex;
+        flex-flow: column;
+        align-items: space-between;
+        justify-content: center;
+        padding-right:3vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        
+    }
+
+
+    #next1
+    {
+        display: inline-flex; 
+    }
+
+
+
+}
