@@ -206,6 +206,7 @@ th,tr,td
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    background-image: url('../Doc/img/Beeldbank_Curio_Mbo/Mbo/GettyImages-517179196.jpg');
 }
 
 #opleidingsoverzicht
@@ -239,32 +240,37 @@ th,tr,td
 {
     background-color: rgb(255, 115, 0);
     height: 100vh;
-}
+    background-image: url('../Doc/img/n2csLv.png');
+    background-position: center;
+    background-size: cover;
+}   
 
 #docentenlijst
-    {
-        margin-left: 15vw;
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        width: 80vw;
-        justify-content: space-between;
-        height: 100vh;
-    }
+{
+    margin-left: 15vw;
+    padding: 5vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80vw;
+    justify-content: space-between;
+    height: 90vh;
+}
 
-    #docenten
-    {
-       margin-left: 1vw;
-    }
+#docentenlijst h4
+{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
 
-    #big
-    {
-        width: 80%;
-    }
+#docenten
+{
+    margin-left: 1vw;
+}
 
-    #small
-    {
-        width: 200%;
-    }
+#big
+{
+    width: 80%;
+}
     
     
 
@@ -459,6 +465,7 @@ th,tr,td
     {
        display: flex;
        justify-content: center;
+       height: 102vh;
     }
 
     #docentenlijst
@@ -468,15 +475,17 @@ th,tr,td
         display: grid;
         grid-template-columns: repeat(1,1fr) ;
         grid-template-rows: repeat(4,1fr);
-        grid-gap:2vw;
+        grid-gap:1vh;
         overflow: scroll;
+        margin-left: 2vw;
+        padding-top: 1vh;
     }
 
     #docenten
     {
         display: flex;
         justify-content: center;
-        margin-top: 4vh;   
+        margin-top: 1vh;   
         border: 1px solid black;
         border-radius: 4%;
         display: inline;
